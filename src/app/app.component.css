@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 750px;
+  position: relative;
+  border: 3px solid #000;
+}
+
+a.btn {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 15px;
+  padding: 14px 40px;
+}
+
+.colorOne {
+  background-color: green;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.colorTwo {
+  background-color: blue;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.colorThree {
+  background-color: red;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
